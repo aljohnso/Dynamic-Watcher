@@ -7,14 +7,14 @@ class CalenderData(db.Model):
     __tablename__ = "CalenderData"
     id = db.Column(db.Integer, primary_key=True)
     userEmail = db.Column(db.String(120))
-    userName = db.Column(db.String(120))
+    # userName = db.Column(db.String(120))
     userCalenderBlob = db.Column(db.String(5000))
 
-    def __init__(self, blob=None):
-        print(blob)
+    def __init__(self, blob=None,bob=None):
+        # print(blob)
         self.userEmail = str(list(blob)[0]['organizer']['email'])
-        self.userName = str(list(blob)[0]['organizer']['displayName'])
-        self.userCalenderBlob = str(blob)#TODO: This breaks things
+        # self.userName = str(list(blob)[0]['organizer']['displayName'])
+        self.userCalenderBlob = str(bob)#TODO: This breaks things
 
 
     @property
