@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be05dde7-3cf0-4b56-8a7a-31bc2612ddd1" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SpotifyWebApp/App/Api/__init__.py" afterPath="$PROJECT_DIR$/Dynamic-Watcher-App/App/Api/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SpotifyWebApp/App/Api/controllers.py" afterPath="$PROJECT_DIR$/Dynamic-Watcher-App/App/Api/controllers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SpotifyWebApp/App/Main/__init__.py" afterPath="$PROJECT_DIR$/Dynamic-Watcher-App/App/Main/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SpotifyWebApp/App/Main/controllers.py" afterPath="$PROJECT_DIR$/Dynamic-Watcher-App/App/Main/controllers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SpotifyWebApp/App/__init__.py" afterPath="$PROJECT_DIR$/Dynamic-Watcher-App/App/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SpotifyWebApp/main.py" afterPath="$PROJECT_DIR$/Dynamic-Watcher-App/main.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dynamic-Watcher-App/App/Api/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dynamic-Watcher-App/App/Api/controllers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dynamic-Watcher-App/App/Main/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dynamic-Watcher-App/App/Main/controllers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dynamic-Watcher-App/App/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Dynamic-Watcher-App/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/client_secret.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test.py" afterPath="$PROJECT_DIR$/test/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +20,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Dynamic-Watcher$test.coverage" NAME="test Coverage Results" MODIFIED="1510376885799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Dynamic-Watcher$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1510388479045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Dynamic-Watcher$test.coverage" NAME="test Coverage Results" MODIFIED="1510386158645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Dynamic-Watcher$main.coverage" NAME="main Coverage Results" MODIFIED="1510375316921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SpotifyWebApp" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -28,20 +31,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/main.py">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+            <state relative-caret-position="285">
+              <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="57" />
               <folding>
                 <element signature="e#1#38#0" expanded="true" />
               </folding>
@@ -70,7 +73,7 @@
         </entry>
       </file>
       <file leaf-file-name="controllers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/Api/controllers.py">
+        <entry file="file://$PROJECT_DIR$/App/Api/controllers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -79,24 +82,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/Main/controllers.py">
+      <file leaf-file-name="controllers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Main/controllers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="76" column="97" lean-forward="false" selection-start-line="76" selection-start-column="97" selection-end-line="76" selection-end-column="97" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client_secret.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/secret/client_secret.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="514" lean-forward="false" selection-start-line="0" selection-start-column="514" selection-end-line="0" selection-end-column="514" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/__init__.py">
+        <entry file="file://$PROJECT_DIR$/App/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,8 +139,14 @@
         <option value="$PROJECT_DIR$/SpotifyWebApp/App/__init__.py" />
         <option value="$PROJECT_DIR$/SpotifyWebApp/main.py" />
         <option value="$USER_HOME$/anaconda/lib/python3.5/site-packages/spotipy/__init__.py" />
-        <option value="$PROJECT_DIR$/test/client_secret.json" />
         <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/test/client_secret.json" />
+        <option value="$PROJECT_DIR$/Dynamic-Watcher-App/App/Main/controllers.py" />
+        <option value="$PROJECT_DIR$/Dynamic-Watcher-App/main.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/App/__init__.py" />
+        <option value="$PROJECT_DIR$/secret/client_secret.json" />
+        <option value="$PROJECT_DIR$/App/Main/controllers.py" />
       </list>
     </option>
   </component>
@@ -183,6 +202,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dynamic-Watcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dynamic-Watcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="secret" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -196,11 +229,16 @@
     <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/secrect" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Dynamic-Watcher-App/secret" />
       <recent name="$PROJECT_DIR$/SpotifyWebApp/App/Api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,6 +271,24 @@
       <module name="Dynamic-Watcher" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Dynamic-Watcher" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -451,14 +507,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
         <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -477,7 +535,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -485,18 +543,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +568,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/main.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -544,7 +602,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/Api/controllers.py">
+    <entry file="file://$PROJECT_DIR$/App/Api/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -552,21 +610,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/Main/controllers.py">
+    <entry file="file://$PROJECT_DIR$/App/Main/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/__init__.py">
+    <entry file="file://$PROJECT_DIR$/App/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -578,7 +636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/Api/controllers.py">
+    <entry file="file://$PROJECT_DIR$/App/Api/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -586,25 +644,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/Main/controllers.py">
+    <entry file="file://$PROJECT_DIR$/App/Main/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/main.py">
+    <entry file="file://$PROJECT_DIR$/App/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -630,7 +688,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/main.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
@@ -646,7 +704,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/Api/controllers.py">
+    <entry file="file://$PROJECT_DIR$/App/Api/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -654,21 +712,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/Main/controllers.py">
+    <entry file="file://$PROJECT_DIR$/App/Main/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/__init__.py">
+    <entry file="file://$PROJECT_DIR$/App/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -677,16 +735,6 @@
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,44 +761,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda/lib/python3.5/site-packages/spotipy/util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#66#103#0" expanded="true" />
+            <element signature="e#66#103#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/Api/controllers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dynamic-Watcher-App/App/Main/controllers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/client_secret.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="357" lean-forward="false" selection-start-line="0" selection-start-column="357" selection-end-line="0" selection-end-column="357" />
         </state>
       </provider>
     </entry>
@@ -761,12 +778,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/secret/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="454" lean-forward="false" selection-start-line="0" selection-start-column="454" selection-end-line="0" selection-end-column="454" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secret/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="514" lean-forward="false" selection-start-line="0" selection-start-column="514" selection-end-line="0" selection-end-column="514" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Api/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="79" column="10" lean-forward="true" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+        <state relative-caret-position="285">
+          <caret line="62" column="57" lean-forward="true" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="57" />
           <folding>
             <element signature="e#1#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Main/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="76" column="97" lean-forward="false" selection-start-line="76" selection-start-column="97" selection-end-line="76" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

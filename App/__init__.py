@@ -1,8 +1,8 @@
 from flask import Flask
 from flask_bootstrap import Bootstrap
 import os
-from SpotifyWebApp.App.Main.controllers import Main
-from SpotifyWebApp.App.Api.controllers import Api
+from App.Main.controllers import Main
+from App.Api.controllers import Api
 # from Config.config import configure_app
 # from DatabaseConnection.DataBaseSchema import db
 # from Pitzer_Outdoor_Adventure.Main.controllers import main
