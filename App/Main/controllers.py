@@ -42,8 +42,10 @@ def login():
         eventsResult = service.events().list(
             calendarId='primary', timeMin=now, maxResults=10, singleEvents=True,
             orderBy='startTime').execute()
+        freeBusy = service.freebusy()
+        print(freeBusy)
         events = eventsResult.get('items', [])
-
+        print(events)
         if not events:
             print('No upcoming events found.')
         for event in events:
