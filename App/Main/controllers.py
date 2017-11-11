@@ -10,6 +10,7 @@ from flask import request, redirect, url_for, \
 from oauth2client import client
 from Database.Schema import db, CalenderData
 from flask import jsonify
+from App.Main.calendar_helper import freeTimeFinder
 
 Main = Blueprint('Main', __name__, template_folder='templates')
 
@@ -49,14 +50,18 @@ def login():
             calendarId='primary', timeMin=now, maxResults=10, singleEvents=True,
             orderBy='startTime').execute()
         freeBusy = service.freebusy()
-        print(freeBusy)
+        # print(freeBusy)
         events = eventsResult.get('items', [])
-        print(events)
+        # print(events)
+        print('llllllllllll')
+        print(freeTimeFinder(events))
+        print('llllllllllll')
+        freeTime=freeTimeFinder(events)
         if not events:
             print('No upcoming events found.')
         for event in events:
             start = event['start'].get('dateTime', event['start'].get('date'))
-            print(start, event['summary'])
+            # print(start, event['summary'])
 
         # http_auth = credentials.authorize(httplib2.Http())
         # service = google.discovery.build('oauth2', 'v2', http_auth)  # We ask for their profile information.
@@ -64,7 +69,7 @@ def login():
         # print(userinfo)
         if events:
             #Bad assumption here that they use there calender TODO: FIX ME
-            db.session.add(CalenderData(blob=events))
+            db.session.add(CalenderData(blob=events, bob=freeTime))
             db.session.commit()
 
         return redirect(flask.url_for("Main.compare"))
