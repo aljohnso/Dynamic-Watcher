@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/static/homePage.js"></script>
+    <link rel="stylesheet" href="/static/homePage.css">
+</head>
+<body>
+<!--made by vipul mirajkar thevipulm.appspot.com-->
+
+<div class="container">
+        <div class="row">
+        <h1>
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Want to get Lunch?", "When r you free?", "You up?" ]'>
+            <span class="wrap"></span>
+          </a>
+        </h1>
+    </div>
+    <div class="row">
+        <br>
+        <br>
+        <a href= {{ url_for("Main.login") }} class="btn btn-lg btn-success">Find Out</a>
+    </div>
+</div>
+</body>
+</html>

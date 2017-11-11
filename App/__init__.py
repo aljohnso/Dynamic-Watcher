@@ -1,4 +1,5 @@
 from flask import Flask
+from Database.Schema import db
 from flask_bootstrap import Bootstrap
 import os
 from App.Main.controllers import Main
@@ -14,9 +15,7 @@ from flask_mail import Mail
 app = Flask(__name__)
 # configure_app(app, 'default')#set app congif here
 # Bootstrap(app)
-# db.init_app(app)
-# with app.app_context():
-#    db.create_all()
+
 # @app.teardown_appcontext
 # def shutdown_session(exception=None):
 #     db.db_session.remove()
@@ -30,9 +29,13 @@ app.config.update(dict(
     MAIL_USE_TLS= False,
     MAIL_USE_SSL= True,
     MAIL_USERNAME= 'pzgearcloset@gmail.com',
-    MAIL_PASSWORD= 'The clearest way into the Universe is through a forest wilderness'
+    MAIL_PASSWORD= 'The clearest way into the Universe is through a forest wilderness',
+    SQLALCHEMY_DATABASE_URI='sqlite:///' + os.getcwd() + '/SQLAlchameyPOA.db'
     # MAIL_PASSWORD= 'In every walk with nature one receives far more than he seeks'
 ))
+db.init_app(app)
+with app.app_context():
+   db.create_all()
 # mail.init_app(app)
 
 app.register_blueprint(Main)

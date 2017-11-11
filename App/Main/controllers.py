@@ -8,6 +8,8 @@ import httplib2
 from flask import request, redirect, url_for, \
     render_template, flash, Blueprint, session
 from oauth2client import client
+from Database.Schema import db, CalenderData
+from flask import jsonify
 
 Main = Blueprint('Main', __name__, template_folder='templates')
 
@@ -21,7 +23,11 @@ def index():
     #     temp = Inventory(item)
     #     db.session.add(temp)
     #     db.session.commit()
-    return "Hello World"
+    return render_template("homePage.html")
+
+@Main.route("/compare")
+def compare():
+    return "Yay"
 
 @Main.route('/login', methods=['POST', 'GET'])
 def login():
@@ -52,11 +58,17 @@ def login():
             start = event['start'].get('dateTime', event['start'].get('date'))
             print(start, event['summary'])
 
-        return redirect(flask.url_for("Main.index"))
         # http_auth = credentials.authorize(httplib2.Http())
         # service = google.discovery.build('oauth2', 'v2', http_auth)  # We ask for their profile information.
         # userinfo = service.userinfo().get().execute()  # Execute request.
         # print(userinfo)
+        if events:
+            #Bad assumption here that they use there calender TODO: FIX ME
+            db.session.add(CalenderData(blob=events))
+            db.session.commit()
+
+        return redirect(flask.url_for("Main.compare"))
+
 
         # populate form with google data
 
