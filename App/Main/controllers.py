@@ -11,6 +11,9 @@ from oauth2client import client
 
 Main = Blueprint('Main', __name__, template_folder='templates')
 
+eventStartTimes = []
+eventEndTimes = []
+
 
 @Main.route('/')
 def index():
@@ -48,7 +51,12 @@ def login():
             print('No upcoming events found.')
         for event in events:
             start = event['start'].get('dateTime', event['start'].get('date'))
-            print(start, event['summary'])
+            end = event['end'].get('dateTime', event['end'].get('date'))
+            eventStartTimes.append(start)
+            eventEndTimes.append(end)
+            #print(start, end , event['summary'])
+        print(eventStartTimes)
+        print(eventEndTimes)
 
         return redirect(flask.url_for("Main.index"))
         # http_auth = credentials.authorize(httplib2.Http())
@@ -65,6 +73,7 @@ def login():
 
 
 @Main.route('/gCallback')
+
 def gCallback():
     """
     This handles authentication. Granted, we're not quite sure how... but it does.
