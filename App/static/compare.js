@@ -27,10 +27,23 @@ function CreateTable1(tableID) {//I know this is terible naming please forgive i
         ]
     });
     $("#" + tableID + " tbody").on('click', 'tr', function() {
-        getModal(table.row(this).data().id);//change this to update the other table
+        console.log(window.location.href);
+        CreateTable2("times", "1",table.row(this).data().id);//change this to update the other table
     });
     }
 
+    function CreateTable2(tableID, user1, user2) {//I know this is terible naming please forgive its 5 am
+    var table = $("#" + tableID).DataTable({ //targets table and creates table
+        "ajax": {
+            "url": "/api/getAvailability"+"/"+user1+"/"+user2
+        },
+        "columns": [
+            {
+                "data": "Time"
+            }
+        ]
+    });
+    }
 
 
 
